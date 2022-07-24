@@ -148,8 +148,8 @@ To overcome the aforementioned limitations, we present the first method for visu
 </p>
 
 
-<h3> Bibtex </h3>
-
+<!-- <h3> Bibtex </h3> -->
+<!-- 
 <div class="publications">
 {% bibliography --template bibtex_only -q @*[key=filntisis2022visual]* %}
-</div>
+</div> -->
