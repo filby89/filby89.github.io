@@ -65,16 +65,16 @@ category: work
   <span class="author-block">
     <a href="https://georgeretsi.github.io">George Retsinas</a><sup>1</sup>,</span>
   <span class="author-block">
-    <a href="https://jonbarron.info">Foivos Paraperas-Papantoniou</a><sup>2</sup>,
+    <a href="https://scholar.google.com/citations?user=PngS31QAAAAJ">Foivos Paraperas-Papantoniou</a><sup>2</sup>,
   </span>
   <span class="author-block">
-    <a href="http://sofienbouaziz.com">Athanasios Katsamanis</a><sup>3</sup>,
+    <a href="https://www.ilsp.gr/en/members/katsamanis-athanasios-nassos/">Athanasios Katsamanis</a><sup>3</sup>,
   </span>
   <span class="author-block">
-    <a href="https://www.danbgoldman.com">Anastassios Roussos</a><sup>4</sup>,
+    <a href="https://users.ics.forth.gr/~troussos/">Anastassios Roussos</a><sup>4</sup>,
   </span>
   <span class="author-block">
-    <a href="https://homes.cs.washington.edu/~seitz/">Petros Maragos</a><sup>1</sup>
+    <a href="https://robotics.ntua.gr/members/maragos/">Petros Maragos</a><sup>1</sup>
   </span>
 </div>
 
@@ -91,13 +91,13 @@ category: work
           arXiv
         </a>
         <!-- Video Link. -->
-        <a class="btn btn-dark btn-youtube" style="background-color: #ed302f; !important" href="#!" role="button">
+        <a class="btn btn-dark btn-youtube" style="background-color: #ed302f; !important" href="https://youtu.be/P1kqrxWNizI" role="button">
           <i class="fab fa-youtube"></i>
           Video
         </a>
         <!-- Code Link. -->
         <!-- Github -->
-        <a class="btn btn-dark" href="#!" role="button">
+        <a class="btn btn-dark" href="https://github.com/filby89/spectre" role="button">
           <i class="fab fa-github"></i>
           Code
         </a>

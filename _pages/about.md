@@ -18,7 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. candidate at the National Technical University of Athens under the supervision of Prof. Petros Maragos. My research interests lie at the crossroads of computer vision and audio processing for affective computing. 
+I am a Ph.D. candidate at the National Technical University of Athens under the supervision of Prof. Petros Maragos. I work at the crossroads of computer vision and audio processing for affective computing. Some of my most recent endeavors include <a href="https://arxiv.org/pdf/1901.01805.pdf"><b>emotion recognition</b></a> and <a href="https://filby89.github.io/spectre/"><b>3D facial and lip expression reconstruction</b></a>.
+
 
 <!-- building affective multimodal avatars. I have also worked in audiovisual emotion recognition with.
  -->
