@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-07-24
 inline: true
 ---
 
-A simple inline announcement.
+    
+Our latest preprint on using lipreading for improving 3D face reconstruction is <a href="https://filby89.github.io/spectre">out</a>! 
