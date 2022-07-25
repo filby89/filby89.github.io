@@ -16,3 +16,15 @@
     panelbear('config', { site: '{{site.panelbear_analytics}}' });
   </script>
 {%- endif -%}
+
+{%- if site.enable_google_analytics4 -%}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.ga4_analytics }}');
+</script>
+{%- endif -%}
+

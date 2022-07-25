@@ -2,7 +2,7 @@
 layout: publication
 title: Visual Speech-Aware Perceptual 3D Facial Expression Reconstruction from Videos
 description: 
-img: assets/img/cover2.drawio.png
+img: assets/img/projects/cover2.drawio.jpg
 importance: 1
 category: work
 ---
@@ -82,11 +82,11 @@ category: work
   <div class="col-sm" align=center>
         <!-- PDF Link. -->
         <!-- Video Link. -->
-        <a class="btn btn-dark btn-rounded" href="#!" role="button">
+        <a class="btn btn-dark btn-rounded" href="https://arxiv.org/pdf/2207.11094" role="button">
           <i class="fa fa-file-pdf"></i>
           Paper
         </a>
-        <a class="btn btn-dark" href="#!" role="button">
+        <a class="btn btn-dark" href="https://arxiv.org/abs/2207.11094" role="button">
           <i class="ai ai-arxiv"></i>
           arXiv
         </a>
@@ -105,12 +105,12 @@ category: work
 </div>
 
 <div class="alert alert-info">
-<b>tl;dr:</b> we optimize 3D facial reconstruction in videos by focusing on the lip formations and mouth movements, using a <b>lipreading</b> loss
+<b>tl;dr:</b> we improve 3D facial reconstruction in videos by focusing on the lip formations and mouth movements, using a <b>lipreading</b> loss
 </div>
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets/img/projects/cover2.drawio.png" title="Cover image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/cover2.drawio.jpg" title="Cover image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -149,7 +149,7 @@ To overcome the aforementioned limitations, we present the first method for visu
 
 
 <!-- <h3> Bibtex </h3> -->
-<!-- 
+
 <div class="publications">
 {% bibliography --template bibtex_only -q @*[key=filntisis2022visual]* %}
-</div> -->
+</div>
