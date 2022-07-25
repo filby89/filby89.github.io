@@ -1,7 +1,7 @@
 ---
 layout: publication
-title: Visual Speech-Aware Perceptual 3D Facial Expression Reconstruction from Videos
-description: 
+title: SPECTRE: Visual Speech-Aware Perceptual 3D Facial Expression Reconstruction from Videos
+description: SPECTRE Visual Speech-Aware Perceptual 3D Facial Expression Reconstruction from Videos
 img: assets/img/projects/cover2.drawio.jpg
 importance: 1
 category: work
