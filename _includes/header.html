@@ -82,6 +82,13 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+
+              <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+                <a class="nav-link" href="/assets/pdf/pfilntisis_cv.pdf">cv                  
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->

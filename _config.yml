@@ -57,8 +57,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: filby89 # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: filby1989 # your Twitter handle
-linkedin_username: # your LinkedIn user name
+twitter_username: # your Twitter handle
+linkedin_username: pfilntisis # your LinkedIn user name
 scholar_userid: Z3Z8ipkAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -119,6 +119,9 @@ collections:
     output: true
     permalink: /news/:path/
   projects:
+    output: true
+    permalink: :path/
+  research_projects:
     output: true
     permalink: :path/
 
@@ -244,11 +247,11 @@ max_author_limit:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  # enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
-  # widths:
-    # - 480
-    # - 800
-    # - 1400
+  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  widths:
+    - 480
+    - 800
+    - 1400
   input_directories:
     - assets/img/
   input_formats:
@@ -284,7 +287,7 @@ enable_tooltips:            false  # enables automatic tooltip links generated
 enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
+enable_project_categories:  false   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
