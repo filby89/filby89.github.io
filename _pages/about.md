@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. candidate and research assistant at the National Technical University of Athens under the supervision of <a href="https://robotics.ntua.gr/members/maragos/">Prof. Petros Maragos</a>. I work at the crossroads of computer vision and audio processing for affective computing. Some of my most recent endeavors include <a href="https://arxiv.org/pdf/1901.01805.pdf"><b>body emotion recognition</b></a>, <a href="https://foivospar.github.io/NED/"><b>visual emotion translation</b></a>, and <a href="https://filby89.github.io/spectre/"><b>3D visual speech-aware facial expression reconstruction</b></a>.
+I am a Ph.D. candidate and research assistant at the National Technical University of Athens under the supervision of <a href="https://robotics.ntua.gr/members/maragos/">Prof. Petros Maragos</a>. I am also a research assistant at the <a href="https://www.athenarc.gr/en">Athena Research and Innovation Center</a>. I work at the crossroads of computer vision and audio processing for affective computing. Some of my most recent endeavors include <a href="https://arxiv.org/pdf/1901.01805.pdf"><b>body emotion recognition</b></a>, <a href="https://foivospar.github.io/NED/"><b>visual emotion translation</b></a>, and <a href="https://filby89.github.io/spectre/"><b>3D visual speech-aware facial expression reconstruction</b></a>.
 
 
 <!-- building affective multimodal avatars. I have also worked in audiovisual emotion recognition with.
