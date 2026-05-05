@@ -2,24 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://robotics.ntua.gr/'><b>Intelligent Robotics and Automation Laboratory</b></a>, National Technical University of Athens
+subtitle: Postdoctoral Researcher at <a href='https://www.athenarc.gr/en'><b>Athena Research Center</b></a> and <a href='https://www.ece.ntua.gr/en'><b>NTUA</b></a>; Guest Researcher at MPI-IS
 
 profile:
   align: top
   image: profile_acad.jpg
   image_cicular: true # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Athens City, State 12345</p>
+    <p>Athens, Greece</p>
+    <p>Tubingen, Germany</p>
+    <p>Institute of Robotics (Athena RC) and IRAL (NTUA)</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a PostDoctoral researcher at the National Technical University of Athens under the supervision of <a href="https://robotics.ntua.gr/members/maragos/">Prof. Petros Maragos</a>. I am also a research associate at the <a href="https://www.athenarc.gr/en">Athena Research and Innovation Center</a>. I work at the crossroads of computer vision and audio processing for affective computing. Some of my most recent endeavors include <a href="https://arxiv.org/pdf/1901.01805.pdf"><b>body emotion recognition</b></a>, <a href="https://foivospar.github.io/NED/"><b>visual emotion translation</b></a>, and <a href="https://filby89.github.io/spectre/"><b>3D visual speech-aware facial expression reconstruction</b></a>.
+<!-- I am a Postdoctoral Researcher at the <a href="https://www.athenarc.gr/en"><b>Athena Research Center</b></a> and the <a href="https://robotics.ntua.gr/"><b>National Technical University of Athens</b></a>, under the supervision of <a href="https://robotics.ntua.gr/members/maragos/">Prof. Petros Maragos</a>. I am also a Guest Researcher at the <a href="https://is.mpg.de/"><b>Max Planck Institute for Intelligent Systems</b></a>. My work focuses on computer vision, 3D human modeling, affective computing, multimodal learning, and robot perception, with recent interest in active perception and open-ended learning. Recent projects include <a href="https://filby89.github.io/mochi/"><b>MOCHI</b></a> for registration-free multi-view 3D face capture, <a href="https://georgeretsi.github.io/smirk/"><b>SMIRK</b></a> for 3D facial expression reconstruction, <a href="https://robotics.ntua.gr/wp-content/uploads/sites/2/2025_Filntisis_Open-endedRoboticExplorationUsingVision-InspiredSimilarity-Foundation-Models_ICRA.pdf"><b>VISOR</b></a> for open-ended robotic exploration, <a href="https://filby89.github.io/spectre/"><b>SPECTRE</b></a> for visual speech-informed facial reconstruction, and <a href="https://foivospar.github.io/NED/"><b>Neural Emotion Director</b></a> for semantic facial expression control. -->
 
+I am a Postdoctoral Researcher at the <a href="https://www.athenarc.gr/en"><b>Athena Research Center</b></a> and the <a href="https://robotics.ntua.gr/"><b>National Technical University of Athens</b></a>, supervised by <a href="https://robotics.ntua.gr/members/maragos/">Prof. Petros Maragos</a>, and a Guest Researcher at the <a href="https://is.mpg.de/"><b>Max Planck Institute for Intelligent Systems</b></a>. My research centers on the perception of expressive human behavior — 3D face and body modeling, affective computing, and multimodal learning — with a growing line of work on robot perception, active perception, and open-ended learning.
+
+**Some recent projects:**
+- <a href="https://filby89.github.io/mochi/"><b>MOCHI</b></a> — registration-free multi-view 3D face capture
+- <a href="https://georgeretsi.github.io/smirk/"><b>SMIRK</b></a> — 3D facial expression reconstruction
+- <a href="https://filby89.github.io/spectre/"><b>SPECTRE</b></a> — visual speech-informed facial reconstruction
+- <a href="https://foivospar.github.io/NED/"><b>Neural Emotion Director</b></a> — semantic control of facial expressions
+- <a href="https://robotics.ntua.gr/wp-content/uploads/sites/2/2025_Filntisis_Open-endedRoboticExplorationUsingVision-InspiredSimilarity-Foundation-Models_ICRA.pdf"><b>VISOR</b></a> — open-ended robotic exploration
 
 <!-- building affective multimodal avatars. I have also worked in audiovisual emotion recognition with.
  -->

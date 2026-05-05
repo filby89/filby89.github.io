@@ -108,13 +108,38 @@
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
           {%- elsif entry.type == "inproceedings" -%}
-            {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+            {%- assign venue = entry.booktitle | upcase -%}
+            {%- if venue contains "CVPR" and (venue contains "WORKSHOP" or venue contains "CVPRW" or venue contains "CVPR-W") -%}
+              {%- capture entrytype -%}<em>CVPR-W</em>{%- endcapture -%}
+            {%- elsif venue contains "CVPR" -%}
+              {%- capture entrytype -%}<em>CVPR</em>{%- endcapture -%}
+            {%- elsif venue contains "ICCV" -%}
+              {%- capture entrytype -%}<em>ICCV</em>{%- endcapture -%}
+            {%- elsif venue contains "ECCV" and (venue contains "WORKSHOP" or venue contains "ECCVW" or venue contains "ECCV-W") -%}
+              {%- capture entrytype -%}<em>ECCV-W</em>{%- endcapture -%}
+            {%- elsif venue contains "ECCV" -%}
+              {%- capture entrytype -%}<em>ECCV</em>{%- endcapture -%}
+            {%- elsif venue contains "NEURIPS" -%}
+              {%- capture entrytype -%}<em>NeurIPS</em>{%- endcapture -%}
+            {%- elsif venue contains "ICRA" -%}
+              {%- capture entrytype -%}<em>ICRA</em>{%- endcapture -%}
+            {%- elsif venue contains "IROS" -%}
+              {%- capture entrytype -%}<em>IROS</em>{%- endcapture -%}
+            {%- elsif venue contains "ICASSP" -%}
+              {%- capture entrytype -%}<em>ICASSP</em>{%- endcapture -%}
+            {%- elsif venue contains "EUSIPCO" -%}
+              {%- capture entrytype -%}<em>EUSIPCO</em>{%- endcapture -%}
+            {%- elsif venue contains "PETRA" -%}
+              {%- capture entrytype -%}<em>PETRA</em>{%- endcapture -%}
+            {%- elsif venue contains "FG" -%}
+              {%- capture entrytype -%}<em>FG</em>{%- endcapture -%}
+            {%- else -%}
+              {%- capture entrytype -%}<em>{{entry.booktitle}}</em>{%- endcapture -%}
+            {%- endif -%}
           {%- else -%}
             {%- capture entrytype -%}{%- endcapture -%}
           {%- endif -%}
-          {%- if entry.month -%}
-            {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
-          {%- endif -%}
+          {%- assign entrymonth = "" -%}
           {%- if entry.year -%}
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
           {%- endif -%}
@@ -131,9 +156,6 @@
           {%- endif %}
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
-          {%- endif %}
-          {%- if entry.bibtex_show %}
-            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           {%- endif %}
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>

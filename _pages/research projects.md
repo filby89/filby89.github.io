@@ -9,7 +9,7 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
- This is a list of EU Horizon 2020 and Greek National projects I have worked on as a research assistant in <a href="https://robotics.ntua.gr/"> IRAL </a> and <a href="https://www.athenarc.gr/en"> Athena RC </a>.
+ This is a list of selected EU, national, and industry research projects I have contributed to at <a href="https://robotics.ntua.gr/">IRAL (NTUA)</a> and <a href="https://www.athenarc.gr/en">Athena RC</a>.
 
 <!-- pages/projects.md -->
 <div class="projects">
