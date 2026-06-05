@@ -40,13 +40,6 @@ category: work
   .btn.btn-youtube {
     background-color: #ed302f !important;
   }
-  .btn.btn-coming-soon {
-    background-color: #6c757d !important;
-    border-color: #6c757d !important;
-    color: #fff !important;
-    cursor: not-allowed;
-    pointer-events: none;
-  }
   .publication-icons {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -115,9 +108,9 @@ category: work
       <i class="fab fa-youtube"></i>
       Video
     </a>
-    <a class="btn btn-coming-soon" role="button" aria-disabled="true">
+    <a class="btn btn-dark" href="https://github.com/filby89/mochi" role="button">
       <i class="fab fa-github"></i>
-      Code (coming soon)
+      Code
     </a>
   </div>
 </div>
